@@ -1,0 +1,1 @@
+python scripts/json2doc.py --data_json dataset/sample-1M.jsonl --output_dir data/docs/ --test_dir data/test/
