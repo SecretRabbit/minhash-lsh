@@ -76,3 +76,8 @@ bool buckets::save(vector<buckets> &bucket_collector, const char* path) {
     outFile.close();
     return true;
 }
+
+
+uint64_t buckets::getsize() const {
+    return this->size;
+}

@@ -16,6 +16,7 @@ class buckets {
         vector<string> *put(char *key, int keysize, string value, bool write=true);
         static bool load(vector<buckets> &bucket_collector, const char *path);
         static bool save(vector<buckets> &bucket_collector, const char *path);
+        uint64_t getsize() const;
 };
 
 #endif
