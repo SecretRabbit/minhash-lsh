@@ -50,6 +50,6 @@ total 172.825 s.
 0.172825 s per file.
 ```
 
-We find that our algorithm can find candidate files quickly. In fact we test similarity between candidate file and test file and find that **there are many low similarity file (false positie) in candidates**. We think about that may be it is the result of not min-wise hash functions and bad random seed to construct hash functions.
+We find that our algorithm can find candidate files quickly. In fact we test similarity between candidate file and test file and find that **there are many low similarity file (false positie) in candidates**. We think about that may be it is the result of less number of buckests.
 
 In the future, we may be can optimize the program on gpu and use better solution to random construct hash function.
