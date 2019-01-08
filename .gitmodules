@@ -1,0 +1,3 @@
+[submodule "src/clhash"]
+	path = src/clhash
+	url = https://github.com/lemire/clhash.git
